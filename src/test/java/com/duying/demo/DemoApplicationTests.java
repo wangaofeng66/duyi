@@ -14,6 +14,7 @@ class DemoApplicationTests {
         String jsonStr = "{\"hello\":\"你好\"}";
         Gson gson = new Gson();
         Map map = gson.fromJson(jsonStr, Map.class);
+
         System.out.println(map);
     }
 
